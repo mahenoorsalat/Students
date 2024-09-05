@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0; 
+}
+
+.container h2{
+    margin: 29px 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 76px;
+    font-weight: 300;
+}
+.container h2 b{
+    font-size: 76px;
+    font-weight: 700;
+}
+.container {
+    width: 50%;
+    height: 100%;
+}
+
+.fl {
+    display: flex;
+}
+
+.left {
+    justify-content: start;
+    margin-top: 21px;
+    flex: 0 0 40%; /* 40% width */
+}
+
+.right {
+    padding: 0px 45px;
+    border-left: 2px solid gray;
+    margin-top: 21px;
+    justify-content: start;
+    flex: 0 0 60%; /* 60% width */
+}
+
+.p{
+    font-size: 21px;
+    font-weight: 300;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 13px 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.left h4 {
+    margin-top: 55px;
+    margin-bottom: 26px;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.email a{
+    justify-content: start;
+}
+
+.left p{
+    font-size: 21px;
+}
+i {
+    height: 45px;
+}
+.right h4{
+    margin-top: 55px;
+    margin-bottom: 45px;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.margin{
+    margin: 34px 0px;
+}
+@media (max-width:420px){
+    .p{
+        width: 130%;
+    }
+   .container{
+    width: 80%;
+   }
+    .container h2{
+        width: 131%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 56px;
+    }
+    .container h2 b{
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        font-size: 56px;
+    }
+}
