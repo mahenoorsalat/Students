@@ -90,14 +90,15 @@ i {
     margin: 34px 0px;
 }
 @media (max-width:420px){
-    .p{
-        width: 130%;
+
+    .fl{
+        display: flex;
+        flex-direction: column;
     }
    .container{
     width: 80%;
    }
     .container h2{
-        width: 131%;
         align-items: center;
         justify-content: center;
         text-align: center;
